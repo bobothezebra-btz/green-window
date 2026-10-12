@@ -1,0 +1,11 @@
+# Planned runtime dependencies
+requests
+pandas
+chronos-forecasting
+smolagents
+fastapi[standard]
+gradio
+
+# Development and API testing
+pytest
+httpx
