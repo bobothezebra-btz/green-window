@@ -1,0 +1,3 @@
+# GreenWindow project brief
+
+GreenWindow is a carbon-aware scheduler for any flexible computing workload: AI training, AI inference, data backups, batch data processing, rendering, software builds, and custom jobs. It forecasts grid carbon intensity for the next 48 hours using the Hugging Face model amazon/chronos-bolt-small on UK Carbon Intensity API data, finds the lowest-carbon start time for each job before its deadline, and reports CO₂ saved. It has a Hugging Face smolagents agent that takes plain-English requests, a FastAPI REST API for company systems, and a Gradio demo app deployed on Hugging Face Spaces. The project owner has never coded: always explain changes in plain English, keep code simple and commented, add tests, and run them before finishing.
